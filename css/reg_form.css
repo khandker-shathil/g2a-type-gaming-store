@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.contaier{
+    background-attachment: #fff;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    overflow:hidden;
+    width:calc(100vw-65vw);
+    max-width:100%;
+    box-shadow: black 4px 5px ;
+    background-color: bisque;
+}
+.form{
+    background-color: azure;
+    width:400px;
+    padding-top:15px;
+    padding-left:20px;
+    margin-left:700px;
+    height:650px;
+}
+
+body{
+    background-size: 100%;
+    background-color:darkblue;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    width:100vh;
+}
+
+ h2{
+    color:darkblue;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding:10px;
+    
+}
+
+.form-control input:focus{
+    outline:0;
+    border-color: gray;
+}
+.form-control input
+{
+    width:90%;
+    border:2px solid;
+    border-radius:5px;
+    display:block;
+    font-size: 14px;
+    padding:14px;
+   
+}
+.form-control label{
+    font-weight: bold;
+    padding-top:5px;
+    display:block;
+    margin-top:5px;
+}
+button{
+    margin-top:5px;
+    height:30px;
+    width:80px;
+
+}
+.form-control{
+    margin-bottom:2px;
+    padding-bottom:2px;
+    position: relative;
+}
+
+.form-control.success input{
+border-color: green;
+}
+.form-control.error input{
+    border-color: red;
+    }
+.form-control small{
+    color:red;
+    position:absolute;
+  height:10px;
+  min-width:40px;
+  background-color: azure;
+  margin:0px;
+   letter-spacing: 1px;
+   font-weight: bold;
+   visibility:hidden;
+}
+.form-control.error small
+{margin-top:1px;
+    visibility: visible;
+}
+#btn{
+    height:30px;
+    width:80px;
+    margin-top:5px;
+    background-color: darkblue;
+    color:#fff;
+}
+#btn:hover{
+    cursor:pointer;
+    background-color: #fff;
+    color:darkblue;
+}
+.save:hover{
+    cursor:pointer;
+}
+.form_edit{
+    background-color: azure;
+    width:400px;
+    padding-top:15px;
+    padding-left:20px;
+    margin-left:700px;
+    height:450px;
+}

@@ -1,0 +1,248 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.header{
+    width:100%;
+    height:20px;
+    background-color: darkgray;
+}
+.row2{
+    height:100px;
+    width:100%;
+    background-color: white;
+    color:black;
+    display:flex;
+}
+
+.logo{
+   
+    height:40px;
+    width:250px;
+    text-align: center;
+  margin-left: 600px;
+  font-size: 25px;
+  font-weight: bold;
+  float:left;
+  margin-top:30px;
+}
+span{
+    color:brown;
+    font-size: 30px;
+}
+
+.left{
+    width:16%;
+    height:600px;
+    background-color: white;
+    float:left;
+}
+
+.left_flex_container{
+    display:flex;
+    flex-direction: column;
+    background-color: brown;
+    margin-top: 0px;
+    width:100%;
+    height:250px;
+   
+}
+.left_flex_container>div{
+    background-color: white; 
+  width: 100%;
+  margin-top: 6px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+
+}
+.left_flex_container>div:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+
+
+.right{
+    width:84%;
+    height:600px;
+    background-color: black;
+    float:left;
+}
+.right_main{
+    height:500px;
+    width:90%;
+    background-color:white;
+    margin-top:55px;
+    margin-left:70px;
+  
+}
+.right_main h2{
+    text-align: center;
+    font-size: 27px;
+    font-weight:bold ; 
+    margin-top:20px;  
+    float:left;
+    margin-left:400px;
+   
+}
+.right_main p{
+    margin-left:30px;
+    font-size: 25px;
+    font-weight:bold ; 
+    margin-top:45px;  
+}
+
+.right_main button{
+    margin-left:900px;
+
+    height:35px;
+    width:25px;
+    font-size: 13px;
+   font-weight:bold;
+ background-color: blue;
+}
+button{
+    width:80px;
+    height:30px;
+float:left;
+margin-top:30px;
+    padding: 3px 10px;
+    
+ background-color: blue;
+    color:white;
+font-weight: bold;
+border-color: azure;
+
+}
+button:hover{
+    cursor:pointer;
+}
+.footer{
+
+    height:300px;
+    width:100%;
+    margin-top:600px;
+    display:flex;
+}
+
+.about{
+height:300px;
+width:400px;
+background-color: brown;
+margin-left:600px;
+float:left;
+
+
+}
+.mail{
+height:20px;
+width:100%;
+margin-top:1px;
+    color:white;
+    padding-top: 2px;
+    background-color: darkgray;
+   
+}
+a{
+    text-decoration: none;
+    color:brown;
+}
+.about p{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2x;
+    margin-top:4px;
+    color:white;
+
+}
+.about_us{
+    height:20px;
+    width:100%;
+    background-color: darkgray;
+    margin-top: 110px;
+    padding-top:3px;
+}
+
+@media only screen and (max-width:400px)
+{body{
+   
+}
+    .header{
+    width:320%;
+    height:20px;
+    background-color: darkgray;
+}
+.row2{
+    display:flex;
+    height:150px;
+}
+.left{
+    width:320%;
+    height:450px;
+    background-color: white;
+    float:left;
+}
+.left_flex_container>div{
+    text-align: center;
+    font-weight: bolder;
+    height:150px;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top:20px;
+}
+.left_flex_container{
+    height:450px;
+    width:100%;
+}
+.logo{
+    margin-left: 550px;
+display:flex;
+height:30px;
+width:100px;
+margin-top: 30px;
+font-size:20px;
+font-weight: bolder;
+
+}
+.right{
+  width:320%;
+  margin-top: 0;
+  height:700px;
+}
+.right_main{
+    height:600px;
+}
+.footer{
+    height: 300px;
+    width:320%;
+    background-color:darkgrey;
+    font-weight: bolder;
+}
+.button{
+    font-weight: bolder;
+ 
+}
+}
+a{
+    color:darkgray;
+}
+
+.buttonrow{
+    display: flex;
+    flex-direction: row;
+  }
+
+.btnlogout{
+    margin-left:340px;
+}
+.btnhome{
+    margin-left:15px;
+}
+
+
+
+
+

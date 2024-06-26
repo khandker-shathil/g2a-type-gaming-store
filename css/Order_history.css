@@ -1,0 +1,192 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.header{
+    width:100%;
+    height:20px;
+    background-color: darkgray;
+}
+.row2{
+    height:100px;
+    width:100%;
+    background-color: white;
+    color:black;
+    display:flex;
+}
+.logo{
+   
+    height:40px;
+    width:250px;
+    text-align: center;
+  margin-left: 600px;
+  font-size: 25px;
+  font-weight: bold;
+  float:left;
+  margin-top:30px;
+}
+span{
+    color:brown;
+    font-size: 30px;
+}
+
+.left{
+    width:16%;
+    height:600px;
+    background-color: white;
+    float:left;
+}
+
+.left_flex_container{
+    display:flex;
+    flex-direction: column;
+    background-color: brown;
+    margin-top: 0px;
+    width:100%;
+    height:250px;
+}
+.left_flex_container>div{
+    background-color: white; 
+  width: 100%;
+  margin-top: 6px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+  color:black;
+}
+.left_flex_container>div:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+
+
+.right{
+    width:84%;
+    height:600px;
+    background-color: black;
+    float:left;
+}
+
+
+button{
+    width:80px;
+    height:30px;
+float:left;
+margin-top:30px;
+    padding: 3px 10px;
+    margin-left:400px;;
+ background-color: blue;
+    color:white;
+font-weight: bold;
+border-color: azure;
+
+}
+button:hover{
+    cursor:pointer;
+}
+.footer{
+    background-color: darkgray;
+    height:300px;
+    width:100%;
+    margin-top:600px;
+    display:flex;
+}
+
+.about{
+height:300px;
+width:400px;
+background-color: darkgray;
+margin-left:600px;
+float:left;
+
+
+}
+.mail{
+height:20px;
+width:100%;
+margin-top:1px;
+    color:white;
+    padding-top: 2px;
+    background-color: darkgray;
+   
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.about p{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2x;
+    margin-top:4px;
+    color:white;
+
+}
+.about_us{
+    height:20px;
+    width:100%;
+    background-color: darkgray;
+    margin-top: 110px;
+    padding-top:3px;
+}
+
+@media only screen and (max-width:700px)
+{.header{
+    width:320%;
+    height:20px;
+    background-color: darkgray;
+}
+.left{
+    width:320%;
+    height:600px;
+    background-color: white;
+    float:left;
+}
+.left_flex_container>div{
+    text-align: center;
+}
+.logo{
+    margin-left: 300px;
+display:inline-block;
+
+}
+
+}
+
+.table_container {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    font-size: 1.2em;
+    max-width: 500px;
+    margin-left: 200px;
+    
+  }
+  
+  .table_container thead tr {
+    background-color: gray;
+    text-align: center;
+    margin: 25px;
+  
+  }
+  .right_main {
+    height: 500px;
+    width: 90%;
+    background-color: white;
+    margin-top: 55px;
+    margin-left: 70px;
+  }
+  .table_container tbody tr{
+    border-bottom: 1px solid gray;
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+
