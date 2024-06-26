@@ -1,0 +1,1 @@
+# g2a-type-game-store-website
